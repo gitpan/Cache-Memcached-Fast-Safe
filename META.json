@@ -4,8 +4,10 @@
       "Masahiro Nagano <kazeburo {at} gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.6.4",
-   "license" : "perl_5",
+   "generated_by" : "Minilla/v0.8.0",
+   "license" : [
+      "perl_5"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
@@ -19,7 +21,8 @@
          "share",
          "eg",
          "examples",
-         "author"
+         "author",
+         "builder"
       ]
    },
    "prereqs" : {
@@ -60,7 +63,7 @@
    "provides" : {
       "Cache::Memcached::Fast::Safe" : {
          "file" : "lib/Cache/Memcached/Fast/Safe.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -74,7 +77,7 @@
          "web" : "https://github.com/kazeburo/Cache-Memcached-Fast-Safe"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_contributors" : [
       "Masahiro Nagano <kazeburo@gmail.com>"
    ]
